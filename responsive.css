@@ -1,0 +1,391 @@
+
+
+
+@media all and (max-width: 1110px) {
+    .hr-middle {
+        display: none;
+    }
+}
+
+@media all and (max-width: 995px) {
+
+    .container {
+        padding: 0px 7px;
+    }
+
+    .banner1-left {
+        width: 98%;
+        float: none;
+    }
+
+    .banner1-right {
+        float: none;
+        width: 75%;
+        margin: auto
+    }
+
+    .single-banner1-left-part2 {
+        width: 48%;
+        border-bottom: 1px solid #ccc; 
+        margin-bottom: 0;
+        padding: 12px 0;
+    }
+
+    .banner1-left-part2 hr {
+        display: none;
+    }
+
+    .banner1-left-part2 {
+        border-top: 1px solid #ccc;
+    }
+
+    .bishes-wraper {
+        flex-wrap: wrap;
+    }
+
+    .bishes-left-wrap {
+        flex-basis: 48%;
+        margin: 0 1%;
+    }
+
+    .bishes-middle {
+        flex-basis: 48%;
+        margin: 0 1%;
+        
+    }
+
+    .bishes-right {
+        flex-basis: 98%;
+        margin: 0 1%;
+        border-top: 1px solid #ccc;
+    } 
+
+    .single-rajdhani {
+        flex-basis: 48%;
+    }
+
+    .single-rajdhani::before {
+        height: 0;
+        background: none;
+    }
+
+    .single-rajdhani {
+        margin-bottom: 12px;
+    }
+
+    .header-nav-area ul {
+        padding-top: 35px
+    }
+}
+
+@media all and (max-width: 875px) {
+
+    /* original responsive section */
+    .right-bell-log .fa-user {
+        display: inline-block;
+        font-size: 23px;
+        padding-right: 10px;
+    }
+
+    .right-bell-log strong {
+        display: none;
+    }
+
+    .fa-search {
+        display: none;
+    }
+
+    .date-header span {
+        display: none;
+    }
+
+    .sub-language {
+        display: none;
+    }
+
+    .header-nav-area ul {
+        display: none;
+    }
+
+    .h-l-left i {
+        margin-bottom: 0;
+    }
+
+    .right-bell-log {
+        margin-bottom: 0;
+    }
+
+    .h-l-middle {
+        width: 165px;
+        margin-left: 0;
+    }
+
+    .header.hide {
+        transform: translateY(-100%) !important;
+        box-shadow: 2.5px 4.33px 30px 0 rgb(50 50 50 / 36%);
+    }
+
+    .single-banner1-left {
+        width: 98%;
+        float: none;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .single-banner1-left strong {
+        margin-bottom: 8px;
+    }
+
+    .single-banner1-left-part2 p {
+        
+        margin-left: 4px;
+        display: inline-block;
+    }
+
+    .single-banner1-right {
+        margin-bottom: 20px;
+    }
+
+    .bishes-left-wrap {
+        flex-basis: 98%;
+        margin: 0 1%;
+        padding-bottom: 27px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .single-b-left-content {
+        padding: 8px 0;
+    }
+
+    .single-b-left-content p {
+        margin-top: -8px;
+    }
+
+    .single-b-left-content span {
+        font-size: 32px;
+    }
+
+    .bishes-middle {
+        flex-basis: 98%;
+        margin: 0 1%;
+        padding-top: 16px;
+    }
+
+    .bishes-right {
+        padding-top: 25px;
+    }
+
+    .saradesh-one-left {
+        flex-basis: 98%;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .saradesh-one-right {
+        flex-basis: 98%;
+        margin: 0 1%;
+        padding-top: 12px;
+        
+    }
+
+    .single-spt-img-2 img {
+        height: auto;
+    }
+
+    .single-saradesh-part-two {
+        flex-basis: 98%;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #ccc;
+        padding-top: 12px;
+    }
+
+    .bishow-left {
+        flex-basis: 98%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .bishow-right {
+        flex-basis: 98%;
+        padding-top: 12px;
+    }
+
+    .binodon-first {
+        flex-basis: 98%;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .binodon-middle {
+        flex-basis: 98%;
+        padding-top: 12px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .binodon-last {
+        flex-basis: 98%;
+        padding-top: 14px
+    }
+
+    .chobi-left {
+        flex-basis: 98%;
+        padding-bottom: 12px;
+    }
+
+    .chobi-right {
+        flex-basis: 98%;
+    }
+
+    .single-footer-first-20 {
+        display: none;
+    }
+
+    .single-footer-first-50 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        border-bottom: 1px solid #ccc;
+        padding: 0 0 10px;
+        margin-top: -20px;
+    }
+
+    .single-footer-first-50 a span {
+        padding: 0 10px;
+    }
+
+    .single-footer-first-30 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .single-footer-first-30 a span {
+        padding: 0 10px;
+    }
+
+    .single-footer-first-30 {
+        margin-bottom: -50px;
+        padding: 20px 0;
+    }
+
+    .single-footer-first-50::after {
+        display: none;
+    }
+
+    .footer-firtst {
+        grid-template-columns: none;
+    }
+
+    .footerLogo {
+        text-align: center;
+    }
+
+    .footer-middle-left {
+        flex-basis: 98%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ccc;
+        margin-top: -30px;
+    }
+
+    .footer-middle-left span {
+        padding-left: 0;
+        margin-left: -10px;
+    }
+
+    .footer-middle-right {
+        flex-basis: 98%;
+        text-align: center;
+        padding: 15px 0;
+        margin-bottom: -30px;
+    }
+
+    .footer-middle-right span {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 567px) {
+
+    .header-logo-area {
+        padding: 8px 0;
+    }
+
+    .single-b-left-content {
+        padding: 6px 0;
+    }
+
+    .single-b-left-content p {
+        margin-top: -12px;
+    }
+
+    .single-middle-second-one {
+        flex-basis: 98%;
+        margin: 0 1%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .single-middle-second-two {
+        flex-basis: 98%;
+        margin: 0 1%;
+        padding-bottom: 10px;
+        padding-top: 15px
+    }
+
+    .single-rajdhani {
+        flex-basis: 98%;
+        margin: 0 1%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+    .saradesh-one-right-left {
+        flex-basis: 98%;
+    }
+
+    .saradesh-one-right-right {
+        flex-basis: 98%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 12px;
+    }
+
+    .single-bishow-right-img {
+        flex-basis: 98%;
+    }
+
+    .single-bishow-right-text {
+        flex-basis: 98%;
+    }
+
+    .h-l-middle img {
+        width: 85%;
+    }
+
+    p.cookie {
+        font-size: 14px;
+    }
+
+    
+}
+
+@media all and (max-width: 460px) {
+    .single-banner1-left {
+        padding-top: 50px;
+    }
+}
+
+@media all and (max-width: 437px) {
+    html, body {
+        overflow-x: hidden;
+    } 
+
+    .header {
+        position: fixed;
+    }
+}
+
+
+
