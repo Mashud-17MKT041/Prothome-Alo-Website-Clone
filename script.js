@@ -113,3 +113,19 @@ wholeWrap.addEventListener('click', function (){
     HamburgerSidebar.classList.remove('active');
 });
 
+
+
+
+// hamburger attribute active
+
+let ul = document.querySelector('.ulvi');
+let li = document.querySelectorAll('a');
+
+li.forEach(el => {
+	el.addEventListener('click', function(){
+		ul.querySelector('.active').classList.remove('active');
+		el.classList.add('active');
+	});
+});
+
+
