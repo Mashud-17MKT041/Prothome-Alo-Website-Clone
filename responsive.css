@@ -367,6 +367,25 @@
     p.cookie {
         font-size: 14px;
     }
+    
+    /* login-area */
+
+    .login-wraper {
+        border: none;
+        width: 100%;
+    }
+
+    .after-login-logo-wrapper {
+        width: 90%;
+    }
+
+    .angle-left-back {
+        border-bottom: 1px solid #ccc;
+    }
+
+    p.login-last-p-term-main {
+        margin-bottom: 55px;
+    }
 
     
 }
