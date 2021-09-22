@@ -1438,3 +1438,489 @@ i.fas.fa-user {
 .hamburger-link ul li a.active{
     color: #ff284f;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------- login  page area start---------------------------- */
+
+.login-wraper {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 2.5px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.after-login-logo-wrapper {
+    width: 370px;
+    margin: auto;
+}
+
+.angle-left-back {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.angle-left-back i {
+    font-size: 21px;
+    
+}
+
+.angle-left-back span {
+    font-size: 16px;
+    color: #555;
+    position: absolute;
+    top: -3px;
+    left: 17px;
+}
+
+.login-logo-img {
+    width: 140px;
+    margin: auto;
+}
+
+.login-logo-img img {
+    width: 100%;
+}
+
+.login-logo-img {
+    width: 140px;
+    margin: auto;
+}
+
+.login-logo-area-title h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #001246;
+}
+
+.login-logo-area-title p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+span.fb-span-login-link {
+    font-weight: bold;
+}
+
+.login-social-icon-link-area {
+    margin: 10px 0;
+}
+
+/* facebook-link */
+
+.login-social-single-icon-link-facebook {
+    background: #3b5998;
+    padding: 5px 15px;
+    position: relative;
+    border: 1px solid #3b5998;
+    border-radius: 4px;
+}
+
+.login-social-single-icon-link-facebook a {
+    color: #fff;
+    display: inherit;
+    text-align: left;
+    font-size: 27px;
+}
+
+.login-social-single-icon-link-facebook span {
+    color: #fff;
+    
+}
+
+.fb-link-span {
+    position: absolute;
+    left: 127px;
+    top: 6px;
+    letter-spacing: 1.5px;
+}
+
+span.fb-span-last {
+    font-weight: bold;
+}
+
+
+/* google-link */
+
+.login-social-single-icon-link-google {
+    background: #4285f4;
+    padding: 5px 15px;
+    position: relative;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+}
+
+.login-social-single-icon-link-google a {
+    color: #fff;
+    display: inherit;
+    text-align: left;
+    font-size: 27px;
+}
+
+.login-social-single-icon-link-google span {
+    color: #fff;
+    
+}
+
+.gg-link-span {
+    position: absolute;
+    left: 127px;
+    top: 6px;
+    letter-spacing: 1.5px;
+}
+
+span.gg-span-last {
+    font-weight: bold;
+}
+
+.login-or {
+    margin: 1px 0;
+    display: inline-block;
+}
+
+.login-input-button-area {
+    margin: 10px 0 25px;
+    position: relative;
+}
+
+input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+}
+
+input.reg-text {
+    display: block;
+    width: 100%;
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+}
+
+.login-pass {
+    position: absolute;
+    right: 13px;
+    bottom: 6px;
+    color: #4285f4;
+    font-weight: 500;
+}
+
+.reg-log-wrap {
+    position: relative;
+}
+
+.reg-pass {
+    position: absolute;
+    right: 13px;
+    bottom: 6px;
+    color: #4285f4;
+    font-weight: 500;
+}
+
+.reg-input-button-area {
+    position: relative;
+}
+
+.confirm-pass {
+    position: absolute;
+    right: 13px;
+    bottom: 6px;
+    color: #4285f4;
+    font-weight: 500;
+}
+
+button.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    background: #f4511e;
+    cursor: pointer;
+    border: 1px solid #f4511e;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+button.login-button:hover {
+    background: #db7657;
+}
+
+a.login-forgot-pass {
+    display: block;
+    margin-bottom: 10px;
+    color: #09f;
+    font-weight: bold;
+}
+
+span.new-to-prothome-alo {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: inherit;
+}
+
+a.login-create-acc {
+    text-decoration: underline;
+    color: #fa511e;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+p.login-last-p-term-main {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -14px;
+    line-height: 20px;
+}
+
+p.login-last-p-term-main a {
+    text-decoration: underline;
+    color: rgb(0 153 255);
+    font-weight: bold;
+    margin: 0 3px;
+}
+
+
+/*--------------- log form validation------------ */
+
+/* log-email */
+.log-input-email {
+    position: relative;
+}
+
+.log-input-email small {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: .7px;
+    margin-bottom: 6px;
+    font-weight: bold ;
+    display: inline-block;
+
+}
+
+.lg-small.active {
+    visibility: visible !important;
+}
+
+.log-input-email strong {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: -3px;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.lg-strong.active {
+    visibility: visible !important;
+}
+
+/* log-pass */
+.log-input-pass {
+    position: relative;
+}
+
+.log-input-pass small {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: .7px;
+    margin-bottom: 6px;
+    font-weight: bold ;
+    display: inline-block;
+
+}
+
+.log-input-pass strong {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: -3px;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.lg-pass-small.active {
+    visibility: visible !important;
+}
+
+.lg-pass-strong.active {
+    visibility: visible !important;
+}
+
+
+
+/*-------------------- reg form validation------------------- */
+
+/* reg name */
+.reg-input-name {
+    position: relative;
+}
+
+.reg-input-name small {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: .7px;
+    margin-bottom: 6px;
+    font-weight: bold ;
+    display: inline-block;
+
+}
+
+.rg-name-small.active {
+    visibility: visible !important;
+}
+
+/* reg-email */
+
+.reg-input-email small {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: .7px;
+    margin-bottom: 6px;
+    font-weight: bold ;
+    display: inline-block;
+
+}
+
+.rg-email-small.active {
+    visibility: visible !important;
+}
+
+.reg-input-email strong {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: -3px;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.rg-email-strong.active {
+    visibility: visible !important;
+}
+
+/* reg-password */
+
+.reg-input-pass {
+    position: relative;
+}
+
+.reg-input-pass small {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: .7px;
+    margin-bottom: 6px;
+    font-weight: bold ;
+    display: inline-block;
+
+}
+
+.rg-pass-small.active {
+    visibility: visible !important;
+}
+
+.reg-input-pass strong {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: -3px;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.rg-pass-strong.active {
+    visibility: visible !important;
+}
+
+/* reg confirm password */
+
+.reg-input-c-pass {
+    position: relative;
+}
+
+
+.reg-input-c-pass small {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: .7px;
+    margin-bottom: 6px;
+    font-weight: bold ;
+    display: inline-block;
+
+}
+
+.rg-c-pass-small.active {
+    visibility: visible !important;
+}
+
+.reg-input-c-pass strong {
+    color: #e74c3c;
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    margin-top: -3px;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.rg-c-pass-strong.active {
+    visibility: visible !important;
+}
+
+
+/*------------------- The end---------------------- */
